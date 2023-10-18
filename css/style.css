@@ -1,0 +1,42 @@
+.action {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.action > .reading {
+  background-color: transparent;
+  color: #6c3428;
+  border: 1px solid #6c3428;
+  border-radius: 4px;
+  padding: 2px;
+  font-weight: 500;
+}
+
+.action > .remove {
+  background-color: transparent;
+  color: #6c3428;
+  border: 1px solid #6c3428;
+  border-radius: 4px;
+  padding: 2px;
+  font-weight: 500;
+}
+article {
+  background-color: #dfa878;
+  border: 1px solid #6c3428;
+  border-radius: 8px;
+  width: 119px;
+  height: 130px;
+  padding: 4px;
+  box-shadow: 10px 10px #6c3428;
+}
+.book_item > h3 {
+  color: #6c3428;
+}
+.book_item > p {
+  color: #6c3428;
+}
+.book_item > .year {
+  color: #6c3428;
+}
